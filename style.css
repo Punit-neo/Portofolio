@@ -107,6 +107,10 @@ hr{
   width: 90%;
   margin: 0 20px 25px;
   box-shadow: 2px 2px 2px black;
+  transition: transform .3s;
+}
+.work-image:hover{
+  transform: scale(1.13);
 }
 
 /* Footer and Contact */
@@ -117,6 +121,12 @@ hr{
   font-size: 3em;
   margin-bottom: 30px;
   font-weight: bold;
+}
+.ct{
+  transition: transform .2s;
+}
+.ct:hover{
+  transform: scale(1.2);
 }
 .footer{
   background-color: #66BFBF;
